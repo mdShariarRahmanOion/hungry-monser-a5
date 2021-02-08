@@ -35,7 +35,7 @@ function getMealList(){
             });
             mealList.classList.remove('notFound');
         } else{
-            html = "Sorry, we didn't find any meal!";
+            html = "Sorry, we didn't find any meal!<br>Please Enter valid Food Name!";
             mealList.classList.add('notFound');
         }
 
